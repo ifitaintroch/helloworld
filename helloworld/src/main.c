@@ -11,10 +11,18 @@
 
 #include "stm32f7xx.h"
 #include "stm32f769i_discovery.h"
-			
+
 
 int main(void)
 {
+	//configure system clocks
+	SystemClock_Config();
 
-	for(;;);
+	//initialize RTOS
+	MX_FREERTOS_Init();
+
+	//start the kernel
+	osKernelStart();
+
+	while(1);
 }

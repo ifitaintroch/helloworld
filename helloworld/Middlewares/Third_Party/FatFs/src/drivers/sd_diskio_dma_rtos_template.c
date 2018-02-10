@@ -48,7 +48,7 @@
 
 /* Includes ------------------------------------------------------------------*/
 #include "ff_gen_drv.h"
-#include "sd_diskio_dma_rtos.h"
+#include "sd_diskio_dma_rtos_template.h"
 
 
 /* Private typedef -----------------------------------------------------------*/

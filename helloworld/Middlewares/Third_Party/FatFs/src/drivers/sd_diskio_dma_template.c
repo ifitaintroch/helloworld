@@ -49,7 +49,7 @@
 
 /* Includes ------------------------------------------------------------------*/
 #include "ff_gen_drv.h"
-#include "sd_diskio_dma.h"
+#include "sd_diskio_dma_template.h"
 
 
 /* Private typedef -----------------------------------------------------------*/
